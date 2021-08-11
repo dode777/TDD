@@ -1,0 +1,31 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "TDD 연습하기",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dode777/TDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dode777/TDD/issues"
+  },
+  "homepage": "https://github.com/dode777/TDD#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "morgan": "^1.10.0",
+    "supertest": "^6.1.4"
+  }
+}
